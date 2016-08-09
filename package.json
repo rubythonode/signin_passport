@@ -1,0 +1,21 @@
+{
+  "name": "signin",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "supervisor node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "jade": "^1.11.0",
+    "morgan": "^1.7.0",
+    "mysql": "^2.10.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "util": "^0.10.3"
+  }
+}
